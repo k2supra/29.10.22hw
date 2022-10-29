@@ -1,7 +1,7 @@
 try:
 
     text = int(input("->"))
-    def tring(text):
+    def tring(tt):
         return text[::-1]
     print()
 
