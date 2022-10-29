@@ -1,3 +1,9 @@
+def tring(tt):
+    for ky in text:
+        res = text[::-1]
+    print(res)
+
+
 try:
 
     text = input("->")
