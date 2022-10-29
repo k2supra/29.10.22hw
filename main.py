@@ -1,1 +1,1 @@
-print("kol")
+print("kolg")
