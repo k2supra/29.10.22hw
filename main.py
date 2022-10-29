@@ -1,3 +1,6 @@
+def ttxt(t):
+    txxt = txt.replace(sym, chn)
+    print(txxt)
 try:
     print("Введіть рядок")
     txt = input("->")
@@ -7,8 +10,10 @@ try:
     chn = input("->")
 
 
-    txxt = txt.replace(sym, chn)
-    print(txxt)
+    def main():
+        ttxt(txt)
+
+    main()
 
 except Exception as ex:
     print(f"Error", {ex})
