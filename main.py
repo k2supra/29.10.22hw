@@ -1,12 +1,17 @@
 try:
     print("Введіть символ для пошуку")
     sym = input("->")
+    print("Введіть рядок")
+    txt = input("->")
 
-    txt = "gsgtgBGGV *4824*+ rf r/757df 7g5 drnywtr wq%*^^#EThb^E&#E"
 
-    exist = sym in txt
-    print(exist)
+    def cont(tt):\
+        print(txt.count(sym))
 
+    def main():
+        cont(sym)
+
+    main()
 
 except Exception as ex:
     print(f"Error", {ex})
