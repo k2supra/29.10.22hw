@@ -5,7 +5,7 @@ try:
     txt = input("->")
 
 
-    def cont(tt):\
+    def cont(tt):
         print(txt.count(sym))
 
     def main():
