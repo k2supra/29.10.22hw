@@ -1,9 +1,10 @@
 try:
 
-    text = int(input("->"))
+    text = input("->")
     def tring(tt):
-        return text[::-1]
-    print()
+        for ky in text:
+            res = text[::-1]
+        print(res)
 
     def main():
         tring(text)
